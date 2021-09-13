@@ -1,3 +1,16 @@
+## 本家からの変更箇所
+
+- markdownのparserを [tats-u/prettier-plugin-md-nocjsp](https://github.com/tats-u/prettier-plugin-md-nocjsp) に変更
+
+```vim
+Plug 'k-kurumi/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'branch': 'nocjsp'
+  \ }
+```
+
+---
+
 ## vim-prettier 
 
 A vim plugin wrapper for prettier, pre-configured with custom default prettier
